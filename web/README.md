@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pizzaria Web
 
-## Getting Started
+A aplicação Web criada com React e NextJS será utilizada pelo setor de produção do estabelecimento, para controle dos pedidos criados pelo atendente, e que devem ser preparados.
 
-First, run the development server:
-
-```bash
+## ▶️ Testar o projeto
+Com o projeto em sua máquina, rode na raiz:
+```
+npm install
+```
+em seguida:
+```
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Lembre-se de estar com a api do sistema rodando | [iniciar a api](../server)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 💠 Funcionalidades 
+- Logar e cadastrar um usuário
+- Cadastrar uma nova categoria de produtos
+- Cadastrar um novo produto dentro de uma categoria
+- Ver pedidos a serem preparados
+- Ver detalhes de cada pedido
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🔱 Ferramentas utilizadas
+- React JS com NextJS
+- TypeScript
+- Axios
+- Jwt Decode
+- Nookies
+- React Icons
+- React Modal
+- React Toastify
+- Sass
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Tela de Login
+![Login-web](https://user-images.githubusercontent.com/72395637/206599980-5e4b5b24-33ac-4ba9-b923-dcf515cb5299.png)
 
-## Learn More
+### Tela de cadastro de usuário
+![Cadastro-web](https://user-images.githubusercontent.com/72395637/206600176-55fd43ce-766d-4ce1-a8fc-8f5d3865ceec.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Tela Dashboard
+![Ultimos pedidos](https://user-images.githubusercontent.com/72395637/206600230-d8291404-b353-45ea-96ea-cb8609f6c5d3.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tela de cadastro de nova categoria
+![Nova categoria](https://user-images.githubusercontent.com/72395637/206600270-be3221d9-d153-43b2-8148-ac08710a083c.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Tela de cadastro de novo produto
+![Novo produto](https://user-images.githubusercontent.com/72395637/206600291-a696a252-dcfe-44c0-b259-1997a33ebb6c.png)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Modal de detalhes do pedido
+![Detalhes do pedido](https://user-images.githubusercontent.com/72395637/206600334-520406bd-b3e0-4833-83a9-db2b8eee4bbe.png)
