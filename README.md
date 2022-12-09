@@ -12,6 +12,25 @@ comunicar de forma ágil e sem rúidos com o setor de produção, que estará ut
 
 > Toda a comunicação entre atendente(*mobile*) e cozinha(*web*) é gerida pelo nosso próprio back-end.
 
+### Funcionalidades gerais da aplicação
+- Autenticação
+  - [x] Cadastrar um novo usuário
+  - [x] Logar um usuário
+  - [x] Verificar autenticação do usuário para rotas privadas
+  - [x] Mostrar detalhes do usuário logado
+  
+- Produtos
+  - [x] Criar e listar categorias de produtos
+  - [x] Criar produtos e listar os produtos de uma categoria específica
+
+- Pedidos
+  - [x] Abrir uma mesa (pedido) e fechar cancelar ela
+  - [x] Adicionar items a uma mesa e removê-los
+  - [x] Enviar pedido para a cozinha preparar
+  - [x] Listar todos os pedidos registrados pelos atendentes
+  - [x] Acessar os detalhes de um pedido
+  - [x] Concluir o pedido (entregue ao cliente)
+
 ### Api
 O servidor foi criado utilizando NodeJS aliado ao framework Express.
 
